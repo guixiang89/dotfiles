@@ -31,15 +31,15 @@ syntax on		" syntax highlight
 set hlsearch		" search highlighting
 
 if has("gui_running")	" GUI color and font settings
-  set background=dark 
-  set guioptions=
-  set t_Co=256          " 256 color mode
-  set cursorline        " highlight current line
-  colors ron 
-  highlight CursorLine          guibg=#003853 ctermbg=24  gui=none cterm=none
+    set background=dark 
+    set guioptions=
+    set t_Co=256          " 256 color mode
+    set cursorline        " highlight current line
+    colors ron 
+    highlight CursorLine          guibg=#003853 ctermbg=24  gui=none cterm=none
 else
-" terminal color settings
-  colors koehler
+    " terminal color settings
+    colors koehler
 endif
 
 set clipboard=unnamed	" yank to the system register (*) by default
@@ -67,11 +67,11 @@ set t_vb=
 set tm=500
 
 " TAB setting{
-   set expandtab        "replace <TAB> with spaces
-   set softtabstop=4 
-   set shiftwidth=4 
+set expandtab        "replace <TAB> with spaces
+set softtabstop=4 
+set shiftwidth=4 
 
-   au FileType Makefile set noexpandtab
+au FileType Makefile set noexpandtab
 "}      							
 
 " status line {
