@@ -2,6 +2,7 @@
 DOTPATH=~/.dotfiles
 
 ln -s $DOTPATH/git/gitconfig ~/.gitconfig
+ln -s $DOTPATH/r/Rprofile ~/.Rprofile
 ln -s $DOTPATH/ruby/gemrc ~/.gemrc
 ln -s $DOTPATH/vim ~/.vim
 ln -s $DOTPATH/vim/vimrc ~/.vimrc
