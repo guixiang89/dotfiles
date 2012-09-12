@@ -22,3 +22,6 @@
 [submodule "vim/bundle/r"]
 	path = vim/bundle/r
 	url = git://github.com/jcfaria/Vim-R-plugin.git
+[submodule "vim/bundle/screen"]
+	path = vim/bundle/screen
+	url = git://github.com/ervandew/screen.git
